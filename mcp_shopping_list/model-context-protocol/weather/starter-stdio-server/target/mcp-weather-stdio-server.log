@@ -1,0 +1,24 @@
+2025-07-27T22:13:08.220-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : Starting McpShoppingListApplicationTests using Java 21.0.8 with PID 28448 (started by amjun in C:\ai\mcp_shopping_list)
+2025-07-27T22:13:08.221-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-07-27T22:13:09.637-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-27T22:13:09.640-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-07-27T22:13:09.640-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-27T22:13:09.642-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-27T22:13:09.642-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-27T22:13:09.925-07:00  INFO 28448 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : Started McpShoppingListApplicationTests in 2.238 seconds (process running for 4.247)
+2025-07-27T22:15:48.606-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : Starting McpShoppingListApplicationTests using Java 21.0.8 with PID 26836 (started by amjun in C:\ai\mcp_shopping_list)
+2025-07-27T22:15:48.608-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-07-27T22:15:49.804-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-27T22:15:49.808-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-07-27T22:15:49.808-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-27T22:15:49.810-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-27T22:15:49.810-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-27T22:15:50.012-07:00  INFO 26836 --- [mcp-shopping-list] [Test worker] c.e.m.McpShoppingListApplicationTests    : Started McpShoppingListApplicationTests in 1.829 seconds (process running for 3.483)
+2025-07-27T22:26:19.242-07:00  INFO 25616 --- [mcp-shopping-list] [main] c.e.m.McpShoppingListApplication         : Starting McpShoppingListApplication using Java 21.0.8 with PID 25616 (C:\ai\mcp_shopping_list\build\classes\java\main started by amjun in C:\ai\mcp_shopping_list)
+2025-07-27T22:26:19.250-07:00  INFO 25616 --- [mcp-shopping-list] [main] c.e.m.McpShoppingListApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-27T22:26:20.717-07:00  INFO 25616 --- [mcp-shopping-list] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-07-27T22:26:20.724-07:00  INFO 25616 --- [mcp-shopping-list] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-07-27T22:26:20.724-07:00  INFO 25616 --- [mcp-shopping-list] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-07-27T22:26:20.724-07:00  INFO 25616 --- [mcp-shopping-list] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-07-27T22:26:20.724-07:00  INFO 25616 --- [mcp-shopping-list] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-07-27T22:26:21.098-07:00  INFO 25616 --- [mcp-shopping-list] [main] c.e.m.McpShoppingListApplication         : Started McpShoppingListApplication in 2.731 seconds (process running for 3.343)
