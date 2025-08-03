@@ -55,6 +55,11 @@ ollama pull <your_model_name>
 
 The application will start on the default port (8080). You can access the REST endpoints as defined in the controllers.
 
+### 6. Test the Application
+```
+http://localhost:8080/chat/ask?question=how many students enrolled in Java class?
+```
+That should give you a nice HTML list of students enrolled in the Java class. Make sure that your StudentCourse table is populated in MySQL
 ## Additional Notes
 - All configuration is managed via `src/main/resources/application.properties`.
 - For troubleshooting, check the logs and ensure MySQL and Ollama are running and accessible.
