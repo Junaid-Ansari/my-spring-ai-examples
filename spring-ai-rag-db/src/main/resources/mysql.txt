@@ -1,0 +1,44 @@
+use spring_ai;
+
+-- Table: Student
+CREATE TABLE Student (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+-- Table: Course
+CREATE TABLE Course (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+-- Table: StudentCourse (Mapping table for many-to-many relationship)
+CREATE TABLE StudentCourse (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    FOREIGN KEY (student_id) REFERENCES Student(id),
+    FOREIGN KEY (course_id) REFERENCES Course(id)
+);
+TRUNCATE  table Student;
+-- Insert Students
+INSERT INTO Student (name) VALUES ('Ram'), ('Murali'), ('Manoj'),('Shiva'),('Srujan');
+
+-- Insert Courses
+INSERT INTO Course (name) VALUES ('Java'), ('Oracle'), ('React JS'),('Spring AI'),('Cloud');
+
+-- Map Students to Courses
+INSERT INTO StudentCourse (student_id, course_id) VALUES(4, 4);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(4, 5);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(5, 5);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(1, 4);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(1, 5);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(2, 6);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(2, 7);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(3, 8);
+INSERT INTO StudentCourse (student_id, course_id) VALUES(4, 6);
+
+select * from StudentCourse;
+
+CREATE INDEX idx_student_id ON StudentCourse(student_id);
+CREATE INDEX idx_course_id ON StudentCourse(course_id);
